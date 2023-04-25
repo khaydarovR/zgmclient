@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/zgmclient/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/zgmclient/coverage
+
+# production
+/zgmclient/build
+
+# misc
+/zgmclient/DS_Store
+/zgmclient/env.local
+/zgmclient/env.development.local
+/zgmclient/env.test.local
+/zgmclient/env.production.local
+
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
