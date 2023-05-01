@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const baseURL = "https://localhost:7203/api/users";
+const baseURL = "https://localhost:7203/api/account";
 
 function Test() {
     const [data, setData] = useState([]);
@@ -19,7 +19,7 @@ function Test() {
     return (
         <div>
         {data.map(u => 
-            <p>{u.id}: {u.name}</p>)}
+            <p key={u.id}>{u.id}: {u.name} {u.lastName} {u.phone}</p>)}
         </div>
     );
 }

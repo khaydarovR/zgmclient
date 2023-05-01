@@ -1,4 +1,5 @@
 import './App.css';
+import RegistrationForm from './components/RegistrationForm';
 import Test from './components/Test' 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       App
       <Test/>
+      <RegistrationForm/>
     </div>
   );
 }
